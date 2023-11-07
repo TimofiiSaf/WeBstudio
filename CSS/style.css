@@ -1,9 +1,9 @@
-main {
-  background-color: gray;
+.first {
+  background-color: #2f303a;
 }
 footer {
-  background-color: gray;
+  background-color: #2f303a;
 }
 button {
-  color: skyblue;
+  background-color: #2196f3;
 }
