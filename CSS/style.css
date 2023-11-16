@@ -8,9 +8,16 @@ button {
   background-color: #2196f3;
 }
 
-h1 {
-  font-family: "Roboto";
-}
-h2 {
-  font-family: "Roboto";
+.studia,
+.portfolio,
+.contact,
+.mail,
+.tel,
+.igor,
+.olga,
+.kola,
+.misha,
+.web {
+  font-family: Roboto;
+  font-weight: 500;
 }
