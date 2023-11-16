@@ -18,3 +18,26 @@ button {
   font-family: Roboto;
   font-weight: 500;
 }
+.detali,
+.addres,
+.mail-footer,
+.rel-footer,
+.robota {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.detali-h3,
+.button,
+.title-h2 {
+  font-family: Roboto;
+  font-weight: 700;
+}
+.web {
+  font-family: Raleway;
+  font-weight: 700;
+}
+.title-h1 {
+  font-family: Roboto;
+  font-weight: 900;
+}
