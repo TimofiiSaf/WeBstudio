@@ -45,3 +45,9 @@ button {
 body {
   font-family: Roboto;
 }
+
+.container {
+  width: 1600px;
+  height: auto;
+  margin-bottom: 94px;
+}
