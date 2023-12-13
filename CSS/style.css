@@ -8,9 +8,7 @@ button {
   background-color: #2196f3;
 }
 
-.studia,
-.portfolio,
-.contact,
+.nav-item,
 .mail,
 .tel,
 .name,
@@ -49,6 +47,32 @@ body {
 
 .container {
   width: 1600px;
-
   padding: 94px 215px 94px 215px;
+}
+.team-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
+.addres-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
+.adventages-list {
+  display: flex;
+  flex-direction: row;
 }
