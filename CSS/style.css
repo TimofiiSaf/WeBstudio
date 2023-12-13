@@ -37,6 +37,7 @@ button {
   font-family: Raleway;
   font-weight: 700;
 }
+
 .title-h1 {
   font-family: Roboto;
   font-weight: 900;
@@ -48,6 +49,6 @@ body {
 
 .container {
   width: 1600px;
-  height: 600;
-  margin-bottom: 94px;
+
+  padding: 94px 215px 94px 215px;
 }
