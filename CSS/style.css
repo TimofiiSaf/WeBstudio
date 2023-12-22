@@ -36,9 +36,21 @@ button {
   font-weight: 700;
 }
 
+.button {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 452px;
+}
+
 .title-h1 {
   font-family: Roboto;
   font-weight: 900;
+  margin: 452px;
 }
 
 body {
@@ -73,6 +85,11 @@ body {
 }
 
 .adventages-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.portf-img {
   display: flex;
   flex-direction: row;
 }
