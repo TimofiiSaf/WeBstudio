@@ -1,4 +1,6 @@
 .first {
+  display: flex;
+  justify-content: center;
   background-color: #2f303a;
 }
 footer {
@@ -36,7 +38,7 @@ button {
   font-weight: 700;
 }
 
-.button {
+.button-text {
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -47,12 +49,15 @@ button {
 }
 
 .title-h1 {
+  width: 696px;
+  height: 120px;
   color: #fff;
   text-align: center;
   font-family: Roboto;
   font-size: 44px;
   font-style: normal;
   text-transform: uppercase;
+  margin: auto;
 }
 
 body {
@@ -61,7 +66,6 @@ body {
 
 .container {
   width: 1600px;
-  padding: 94px 215px 94px 215px;
 }
 
 .container-titel {
@@ -127,4 +131,18 @@ img {
   font-weight: 500;
   letter-spacing: 0.48px;
   font-size: large;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.title-h2 {
+  margin: auto;
 }
