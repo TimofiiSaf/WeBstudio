@@ -131,9 +131,15 @@ ul {
   align-items: center;
   gap: 30px;
   justify-content: center;
+  margin-top: 56px;
+}
+.portf-button:focus:hover {
+  background-color: #2196f3;
+  border: none;
 }
 .portf-button {
-  color: #212121;
+  display: flex;
+  background-color: transparent;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -141,6 +147,7 @@ ul {
   font-weight: 500;
   letter-spacing: 0.48px;
   font-size: large;
+  border: none;
 }
 
 .button {
@@ -168,4 +175,16 @@ ul {
 }
 .work-img {
   padding-top: 50px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 94px;
+}
+.container-portfolio {
+  width: 1200px;
+  margin-right: 210px;
+  margin-left: 210px;
 }
