@@ -1,10 +1,90 @@
+a,
+ul,
+h1,
+li,
+p,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
 .container {
   width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
 }
-.hero {
+
+header {
+  padding: 24px 0px 25px;
+}
+
+.web {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.web-part {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.nav-list {
   display: flex;
-  justify-content: center;
+}
+
+.mail,
+.tel {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 50px;
+}
+
+.nav-item {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  padding-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero {
   background-color: #2f303a;
 }
 .header-list {
@@ -18,40 +98,7 @@ button {
   background-color: #2196f3;
 }
 
-.nav-item,
-.mail,
-.tel,
-.name,
-.web {
-  font-family: Roboto;
-  font-weight: 500;
-}
-.detali,
-.addres,
-.mail-footer,
-.rel-footer,
-.robota {
-  font-family: Roboto;
-  font-weight: 400;
-}
-
-.detali {
-  color: #757575;
-  margin-right: 30px;
-}
-
-.detali-h3,
-.button,
-.title-h2 {
-  font-family: Roboto;
-  font-weight: 700;
-}
-.web {
-  font-family: Raleway;
-  font-weight: 700;
-}
-
-.button-text {
+.hero-btn {
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -63,7 +110,7 @@ button {
   border: none solid;
 }
 
-.title-h1 {
+.hero-title {
   width: 696px;
   height: 120px;
   color: #fff;
@@ -73,10 +120,7 @@ button {
   font-style: normal;
   text-transform: uppercase;
   margin: auto;
-}
-
-body {
-  font-family: Roboto;
+  padding-top: 200px;
 }
 
 .team-list {
@@ -88,41 +132,47 @@ body {
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  padding-right: 30px;
-}
 .addres-list {
   display: flex;
-  flex-direction: row;
 }
-
-ul {
-  list-style: none;
-}
-
-.nav-item {
-  padding-right: 50px;
-}
-
 .adventages-list {
   display: flex;
-  flex-direction: row;
 }
 
-.portf-img {
+/* .portf-img {
   text-align: center;
-}
+} */
 
 .photo {
   width: 270px;
   height: 260px;
-  margin-right: 30px;
 }
-.portfolio-list {
+
+.adventages-list-tittle {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.adventages-list-text {
+  color: #757575;
+}
+
+.team-user {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+}
+
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -151,32 +201,9 @@ ul {
 .button-div {
   display: flex;
   justify-content: center;
-}
+} */
 
-.title-h2 {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  padding-top: 94px;
-}
-
-.team-div {
-  display: flex;
-  text-align: center;
-}
-
-.h2-img {
-  margin-right: 30px;
-  width: 370px;
-  height: 294px;
-}
-
-.work-img {
-  padding-top: 50px;
-  display: flex;
-}
-
-.button-list {
+/* .button-list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -184,7 +211,7 @@ ul {
 }
 .container-portfolio {
   width: 1200px;
-}
+} */
 
 .mail-footer,
 .tel-footer {
@@ -193,4 +220,17 @@ ul {
 
 .addres {
   color: #fff;
+}
+
+.adventages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work {
+  padding-bottom: 94px;
+}
+
+.team {
+  padding-bottom: 94px;
 }
