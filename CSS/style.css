@@ -10,6 +10,10 @@ h4 {
   margin: 0;
 }
 
+a:hover {
+  color: #2196f3;
+}
+
 body {
   font-family: Roboto;
 }
@@ -21,14 +25,30 @@ a {
 ul {
   list-style-type: none;
 }
+footer {
+  background-color: #2f303a;
+}
+button {
+  border-radius: 4px;
+  background: #2196f3;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-header {
-  padding: 24px 0px 25px;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .web {
@@ -83,19 +103,14 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.addres-list {
+  display: flex;
+}
 
 .hero {
   background-color: #2f303a;
-}
-.header-list {
-  display: flex;
-  justify-content: space-between;
-}
-footer {
-  background-color: #2f303a;
-}
-button {
-  background-color: #2196f3;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-btn {
@@ -107,7 +122,8 @@ button {
   font-weight: 700;
   line-height: 30px;
   padding: 10px 32px;
-  border: none solid;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -120,7 +136,6 @@ button {
   font-style: normal;
   text-transform: uppercase;
   margin: auto;
-  padding-top: 200px;
 }
 
 .team-list {
@@ -129,18 +144,9 @@ button {
   padding-top: 50px;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.addres-list {
-  display: flex;
-}
 .adventages-list {
   display: flex;
+  gap: 30px;
 }
 
 /* .portf-img {
@@ -161,15 +167,67 @@ button {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .adventages-list-text {
   color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+
+.team {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  background: #f5f4fa;
 }
 
 .team-user {
+  border: #000;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
+}
+
+.name {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding-top: 30px;
+}
+
+.robota {
+  color: #757575;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.work-img {
+  display: flex;
+  padding-top: 50px;
+  gap: 30px;
 }
 
 /* .portfolio-list {
@@ -216,10 +274,22 @@ button {
 .mail-footer,
 .tel-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
 }
 
 .addres {
   color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
 }
 
 .adventages {
@@ -228,9 +298,47 @@ button {
 }
 
 .work {
+  display: flex;
   padding-bottom: 94px;
+  text-align: center;
 }
 
-.team {
-  padding-bottom: 94px;
+.web-footer-part {
+  color: #2196f3;
+
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.web-footer {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  padding-top: 60px;
+}
+
+.addres {
+  padding-top: 10px;
+}
+
+.mail-footer {
+  padding-top: 5px;
+}
+
+.tel-footer {
+  padding-top: 5px;
+  padding-bottom: 60px;
+}
+
+.footer-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
