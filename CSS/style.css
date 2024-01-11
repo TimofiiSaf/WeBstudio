@@ -158,6 +158,14 @@ button {
   height: 260px;
 }
 
+.adventages-box {
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+
 .adventages-list-tittle {
   color: #212121;
   font-family: Roboto;
