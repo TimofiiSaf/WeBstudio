@@ -149,21 +149,53 @@ button {
   gap: 30px;
 }
 
-/* .portf-img {
-  text-align: center;
-} */
-
 .photo {
   width: 270px;
   height: 260px;
 }
 
 .adventages-box {
+  display: inline-block;
   width: 270px;
   height: 120px;
   flex-shrink: 0;
-  border-radius: 4px;
   background: #f5f4fa;
+  background-image: url("../images/antenna\ 1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adventages-box-two {
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  background: #f5f4fa;
+  background-image: url("../images/clock\ 1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adventages-box-three {
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  background: #f5f4fa;
+  background-image: url("../images/diagram\ 1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adventages-box-four {
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  background: #f5f4fa;
+  background-image: url("../images/astronaut\ 1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .adventages-list-tittle {
@@ -175,6 +207,7 @@ button {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -237,47 +270,6 @@ button {
   padding-top: 50px;
   gap: 30px;
 }
-
-/* .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 56px;
-}
-.portf-button:focus:hover {
-  background-color: #2196f3;
-  border: none;
-}
-.portf-button {
-  display: flex;
-  background-color: transparent;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.48px;
-  font-size: large;
-  border: none;
-}
-
-.button-div {
-  display: flex;
-  justify-content: center;
-} */
-
-/* .button-list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 94px;
-}
-.container-portfolio {
-  width: 1200px;
-} */
 
 .mail-footer,
 .tel-footer {
