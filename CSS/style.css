@@ -149,53 +149,13 @@ button {
   gap: 30px;
 }
 
-.photo {
-  width: 270px;
-  height: 260px;
-}
-
-.adventages-box {
+.adventages-list-item::before {
+  content: "";
   display: inline-block;
   width: 270px;
   height: 120px;
-  flex-shrink: 0;
-  background: #f5f4fa;
-  background-image: url("../images/antenna\ 1.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.adventages-box-two {
-  display: inline-block;
-  width: 270px;
-  height: 120px;
-  flex-shrink: 0;
-  background: #f5f4fa;
-  background-image: url("../images/clock\ 1.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.adventages-box-three {
-  display: inline-block;
-  width: 270px;
-  height: 120px;
-  flex-shrink: 0;
-  background: #f5f4fa;
-  background-image: url("../images/diagram\ 1.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.adventages-box-four {
-  display: inline-block;
-  width: 270px;
-  height: 120px;
-  flex-shrink: 0;
-  background: #f5f4fa;
-  background-image: url("../images/astronaut\ 1.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #f5f4fa;
+  ba
 }
 
 .adventages-list-tittle {
@@ -219,6 +179,28 @@ button {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
+}
+
+.photo {
+  width: 270px;
+  height: 260px;
+}
+
+.work-title {
+  margin-bottom: 50px;
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.work-list {
+  display: flex;
+  gap: 30px;
 }
 
 .team-list {
@@ -263,12 +245,6 @@ button {
   letter-spacing: 0.48px;
   padding-top: 10px;
   padding-bottom: 30px;
-}
-
-.work-img {
-  display: flex;
-  padding-top: 50px;
-  gap: 30px;
 }
 
 .mail-footer,
