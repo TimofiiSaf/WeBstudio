@@ -140,5 +140,7 @@ ul {
   width: 1200px;
 }
 .portf-img {
+  display: flex;
   text-align: center;
+  flex-basis: auto;
 }
