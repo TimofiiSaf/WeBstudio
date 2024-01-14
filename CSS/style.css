@@ -155,7 +155,24 @@ button {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  ba
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adventages-list-item:nth-child(1)::before {
+  background-image: url("../images/antena.svg");
+}
+
+.adventages-list-item:nth-child(2)::before {
+  background-image: url("../images/astronaut.svg");
+}
+
+.adventages-list-item:nth-child(3)::before {
+  background-image: url("../images/clock.svg");
+}
+
+.adventages-list-item:nth-child(4)::before {
+  background-image: url("../images/diagram.svg");
 }
 
 .adventages-list-tittle {
