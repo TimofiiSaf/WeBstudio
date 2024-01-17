@@ -15,7 +15,9 @@ a:hover {
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 a {
@@ -45,6 +47,8 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-list {
   display: flex;
@@ -59,13 +63,12 @@ button {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  margin-top: 25px;
 }
 
 .web-part {
   color: #2196f3;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -80,7 +83,7 @@ button {
 .mail,
 .tel {
   color: #757575;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
