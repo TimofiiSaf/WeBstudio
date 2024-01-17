@@ -24,7 +24,8 @@ button {
   background: #f5f4fa;
 }
 button:hover {
-  color: #2196f3;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 ul {
@@ -114,8 +115,7 @@ ul {
   margin-bottom: 94px;
 }
 .portf-button {
-  display: flex;
-  background-color: transparent;
+  background-color: #f5f4fa;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
