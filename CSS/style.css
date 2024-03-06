@@ -47,6 +47,8 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 .header-list {
   display: flex;
