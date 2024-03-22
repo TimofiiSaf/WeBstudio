@@ -225,6 +225,21 @@ button {
   gap: 30px;
 }
 
+.work-list-name {
+  display: block;
+  background-color: #2f303a;
+  opacity: 80%;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+}
+
+.work-name-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
 .team-list {
   display: flex;
   gap: 30px;
