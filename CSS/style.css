@@ -120,6 +120,7 @@ button {
 .hero {
   background-image: url("../images/overlay.jpg");
   opacity: 0, 5;
+  background-repeat: no-repeat;
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -325,13 +326,37 @@ button {
   text-align: center;
 }
 
+.users-list-title {
+  width: 297px;
+  height: 42px;
+}
+
 .users-box {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 95px;
+}
+
+.users-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.users-svg {
+  width: 170px;
+  height: 92px;
+  border: #afb1b8 2px solid;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .users-list-svg {
-  fill: #757575;
-  border: 5px solid;
+  fill: #afb1b8;
+}
+
+.users-svg:hover {
+  fill: #2196f3;
 }
 
 .users-list-svg:hover {
