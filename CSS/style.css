@@ -240,6 +240,8 @@ button {
   width: 370px;
   height: 70px;
   padding-top: 27px;
+  position: relative;
+  bottom: 73px;
 }
 
 .work-name-text {
