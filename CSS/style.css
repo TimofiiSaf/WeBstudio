@@ -110,6 +110,13 @@ button {
   display: flex;
 }
 
+.header-mail {
+  color: #757575;
+}
+.headr-telephone {
+  color: #757575;
+}
+
 .hero {
   background-image: url("../images/overlay.jpg");
   opacity: 0, 5;
@@ -316,6 +323,18 @@ button {
   display: flex;
   padding-bottom: 94px;
   text-align: center;
+}
+
+.users-box {
+  display: flex;
+}
+
+.users-list-svg {
+  fill: #757575;
+}
+
+.users-list-svg:hover {
+  fill: #2196f3;
 }
 
 .web-footer-part {
