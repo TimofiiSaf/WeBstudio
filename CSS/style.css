@@ -296,6 +296,42 @@ button {
   padding-bottom: 30px;
 }
 
+.background-div-svg {
+  display: flex;
+
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.background-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid none;
+  border-radius: 45px;
+}
+
+.background-div:hover {
+  background-color: #2196f3;
+  fill: #fff;
+  border: 2px solid none;
+  border-radius: 45px;
+}
+
+.work-svg {
+  width: 20px;
+  height: 20px;
+  background-size: 44px;
+}
+
+.work-svg:hover {
+  fill: #fff;
+}
+
 .name {
   color: #212121;
   text-align: center;
@@ -371,6 +407,10 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.users-list-box:hover {
+  fill: #2196f3;
 }
 
 .users-svg {
