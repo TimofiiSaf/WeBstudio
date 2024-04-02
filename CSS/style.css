@@ -335,7 +335,8 @@ button {
   border: 2px solid none;
   border-radius: 45px;
   fill: #fff;
-  background-color: #212121;
+  background-color: rgba(0, 0, 0, 10%);
+  margin-right: 10px;
 }
 
 .footer-background-div:hover {
@@ -346,10 +347,9 @@ button {
 }
 
 .footer-svg-title {
-  width: 116px;
-  height: 16px;
+  text-align: center;
   color: #fff;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .work-svg {
@@ -361,12 +361,6 @@ button {
 .work-svg:hover {
   fill: #fff;
 }
-
-/* .users-list-svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .name {
   color: #212121;
@@ -519,8 +513,7 @@ button {
   padding-bottom: 60px;
 }
 
-.footer-svg-box {
+.footer-background {
   display: flex;
   justify-content: center;
-  align-items: center;
 }

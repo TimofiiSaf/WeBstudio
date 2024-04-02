@@ -44,6 +44,32 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+.mail-svg {
+  width: 16px;
+  height: 12px;
+}
+
+.mail-use-svg {
+  fill: #757575;
+}
+
+.mail-use-svg:hover {
+  fill: #2196f3;
+}
+
+.tel-svg {
+  width: 10px;
+  height: 16px;
+}
+
+.tel-use-svg {
+  fill: #757575;
+}
+
+.tel-use-svg:hover {
+  fill: #2196f3;
+}
 .header-list {
   display: flex;
   justify-content: space-between;
@@ -233,4 +259,41 @@ footer {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
+}
+
+.footer-background {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  background-size: 44px;
+}
+
+.footer-background-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid none;
+  border-radius: 45px;
+  fill: #fff;
+  background-color: rgba(0, 0, 0, 10%);
+  margin-right: 10px;
+}
+
+.footer-background-div:hover {
+  background-color: #2196f3;
+  fill: #fff;
+  border: 2px solid none;
+  border-radius: 45px;
+}
+
+.footer-svg-title {
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
