@@ -78,8 +78,7 @@ button {
   display: flex;
 }
 
-.mail,
-.tel {
+.addres-item {
   color: #757575;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -92,32 +91,20 @@ button {
   margin-left: 50px;
 }
 
-.mail-svg {
+.addres-svg {
   width: 16px;
-  height: 12px;
-}
-.mail-use-svg {
-  fill: #757575;
-}
-
-.tel-svg {
-  width: 10px;
   height: 16px;
-}
-
-.tel-use-svg {
+  padding: 2px 0;
+  margin-right: 10px;
+  vertical-align: middle;
   fill: #757575;
 }
 
-.mail:hover .mail-use-svg {
+.addres-item:hover .addres-use-svg {
   fill: #2196f3;
 }
 
-.tel:hover .tel-use-svg {
-  fill: #2196f3;
-}
-
-.nav-item {
+. .nav-item {
   color: #212121;
   font-family: Roboto;
   font-size: 14px;
@@ -295,6 +282,10 @@ button {
   padding-bottom: 30px;
 }
 
+.background-div-item {
+  margin-right: 10px;
+}
+
 .background-div-svg {
   display: flex;
   justify-content: center;
@@ -449,8 +440,13 @@ button {
   border-radius: 4px;
 }
 
-.users-list-box:hover {
+.users-list-box:hover .user-svg-use {
   fill: #2196f3;
+}
+
+.users-list-box:hover {
+  border: #2196f3 1px solid;
+  border-radius: 4px;
 }
 
 .users-svg {
@@ -537,7 +533,7 @@ a {
 a:hover {
   color: #2196f3;
 }
-button {
+.portf-button {
   width: 125px;
   height: 38px;
   flex-shrink: 0;
