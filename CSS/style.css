@@ -61,7 +61,6 @@ button {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  margin-top: 25px;
 }
 
 .web-part {
@@ -74,8 +73,15 @@ button {
   letter-spacing: 0.78px;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav-list {
   display: flex;
+  gap: 50px;
 }
 
 .addres-item {
@@ -90,9 +96,6 @@ button {
 }
 
 .addres-svg {
-  width: 16px;
-  height: 16px;
-  padding: 2px 0;
   margin-right: 10px;
   vertical-align: middle;
   fill: #757575;
@@ -110,12 +113,11 @@ button {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  margin-right: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 .addres-list {
   display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .header-mail {
@@ -557,10 +559,7 @@ ul {
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  padding: 32px 0;
 }
 
 .mail-svg {
@@ -592,9 +591,7 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.addres-list {
-  display: flex;
-}
+
 .web {
   color: #000;
   font-family: Raleway;
@@ -603,8 +600,6 @@ ul {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .web-part {
@@ -615,10 +610,6 @@ ul {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-}
-
-.nav-list {
-  display: flex;
 }
 
 .mail,
@@ -634,20 +625,6 @@ ul {
   padding-bottom: 32px;
   padding-left: 50px;
 }
-
-.nav-item {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  padding-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
