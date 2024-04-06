@@ -451,8 +451,6 @@ button {
 
 .users-svg {
   fill: #afb1b8;
-  width: 106px;
-  height: 60px;
 }
 
 .users-list-svg {
@@ -460,12 +458,12 @@ button {
   margin: 0 auto;
 }
 
-.users-svg:hover {
-  fill: #2196f3;
-}
-
 .users-list-svg:hover {
   border: #2196f3;
+}
+
+.users-list-box:hover .users-svg {
+  fill: #2196f3;
 }
 
 .web-footer-part {
