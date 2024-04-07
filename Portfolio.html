@@ -12,8 +12,7 @@
     />
         <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <header class="header container">
+  <body><header class="header">
       <div class="container header-list">
         <a
           class="web"
@@ -28,31 +27,35 @@
           </ul>
         </nav>
         <ul class="addres-list">
-          <li class="mail">
-            <svg class="mail-svg">
-              <use
-                class="mail-use-svg"
-                href="./images/symboldefs.svg#icon-mail"
-                width="16px"
-                height="12px"
-              />
-            </svg>
-            <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
+          <li class="addres-item">
+            <a href="mailto:info@devstudio.com">
+              <svg class="addres-svg" width="16px" height="12px">
+                <use
+                  class="addres-use-svg"
+                  href="./images/symboldefs.svg#icon-mail"
+                  width="16px"
+                  height="12px"
+                />
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
-          <li class="tel">
-            <svg class="tel-svg">
-              <use
-                class="tel-use-svg"
-                href="./images/symboldefs.svg#icon-telephone-nm"
-                width="10px"
-                height="16px"
-              />
-            </svg>
-            <a href="tel:+380961111111"> +38 096 111 11 11</a>
+          <li class="addres-item">
+            <a href="tel:+380961111111">
+              <svg class="addres-svg" width="12px" height="16px">
+                <use
+                  class="addres-use-svg"
+                  href="./images/symboldefs.svg#icon-telephone-nm"
+                  width="10px"
+                  height="16px"
+                />
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
-    </header>
+    </header></header>
     <main>
       <div class="button-list">
         <button class="portf-button">Усі</button>
@@ -118,60 +121,16 @@
         </ul>
       </div>
     </main>
-    <footer class="footer">
+     <footer class="footer">
       <div class="container">
         <section class="footer-content">
-          <h2 class="footer-svg-title">Приєднюйтесь</h2>
-          <a
-            href="file:///Users/marianasafiulin/Desktop/GOITEENS/dz4-5.html"
-            class="web-footer"
-            ><span class="web-footer-part">Web</span>Studio</a
-          >
-          <div class="footer-svg-box">
-            
-            <ul class="footer-background">
-              <li>
-                <a class="footer-background-div">
-                  <svg class="footer-svg" width="20" height="20">
-                    <use
-                      class="footer-use-svg"
-                      href="./images/symboldefs.svg#icon-instagram"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a class="footer-background-div">
-                  <svg class="footer-svg">
-                    <use
-                      class="footer-use-svg"
-                      href="./images/symboldefs.svg#icon-twitter"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a class="footer-background-div">
-                  <svg class="footer-svg">
-                    <use
-                      class="footer-use-svg"
-                      href="./images/symboldefs.svg#icon-facebook"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a class="footer-background-div">
-                  <svg class="footer-svg">
-                    <use
-                      class="footer-use-svg"
-                      href="./images/symboldefs.svg#icon-linkedin"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            </div>
+          <div class="footer-content-item">
+            <a
+              href="file:///Users/marianasafiulin/Desktop/GOITEENS/dz4-5.html"
+              class="web-footer"
+              ><span class="web-footer-part">Web</span>Studio</a
+            >
+
             <addres class="addres">
               <p class="addres-text">м. Київ, пр-т Лесі Українки, 26</p>
               <a class="mail-footer" href="mailto:info@devstudio.com">
@@ -182,6 +141,54 @@
                 +38 096 111 11 11</a
               >
             </addres>
+          </div>
+
+          <div class="footer-social-svg">
+            <h2 class="footer-svg-title">Приєднюйтесь</h2>
+            <div class="footer-svg-box">
+              <ul class="footer-background">
+                <li>
+                  <a class="footer-background-div">
+                    <svg class="footer-svg" width="20" height="20">
+                      <use
+                        class="footer-use-svg"
+                        href="./images/symboldefs.svg#icon-instagram"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-background-div">
+                    <svg class="footer-svg">
+                      <use
+                        class="footer-use-svg"
+                        href="./images/symboldefs.svg#icon-twitter"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-background-div">
+                    <svg class="footer-svg">
+                      <use
+                        class="footer-use-svg"
+                        href="./images/symboldefs.svg#icon-facebook"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-background-div">
+                    <svg class="footer-svg">
+                      <use
+                        class="footer-use-svg"
+                        href="./images/symboldefs.svg#icon-linkedin"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
       </div>

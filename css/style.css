@@ -513,15 +513,11 @@ button {
 }
 
 .footer-content-item {
-  width: 231px;
-  height: 132px;
+  margin-right: 70px;
 }
 
 .footer-social-svg {
-  width: 206px;
-  height: 80px;
-  margin-left: 70px;
-  padding-top: 5px;
+  margin-top: 70px;
 }
 
 /* portfolio */
@@ -730,6 +726,8 @@ footer {
   line-height: normal;
   letter-spacing: 0.78px;
   padding-top: 60px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .addres {
@@ -808,6 +806,7 @@ footer {
   color: #fff;
   font-family: "Roboto", sans-serif;
   margin-bottom: 25px;
+  display: inline-block;
 }
 
 .backdrop {
