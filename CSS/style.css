@@ -504,6 +504,7 @@ button {
 .footer-content {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .footer-background {
@@ -511,8 +512,17 @@ button {
   justify-content: center;
 }
 
-/* .footer-content-item {
-} */
+.footer-content-item {
+  width: 231px;
+  height: 132px;
+}
+
+.footer-social-svg {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  padding-top: 5px;
+}
 
 /* portfolio */
 
@@ -793,9 +803,10 @@ footer {
 }
 
 .footer-svg-title {
-  text-align: center;
+  text-align: start;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
 }
 
 .backdrop {
