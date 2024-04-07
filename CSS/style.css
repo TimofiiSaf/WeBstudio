@@ -733,7 +733,7 @@ footer {
 }
 
 .addres {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .mail-footer {
@@ -769,6 +769,7 @@ footer {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
+  margin-top: 20px;
 }
 
 .footer-background {
