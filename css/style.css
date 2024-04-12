@@ -243,6 +243,10 @@ button {
   gap: 30px;
 }
 
+.work-list-item {
+  position: relative;
+}
+
 .work-list-name {
   display: block;
   background-color: #2f303a;
@@ -251,13 +255,20 @@ button {
   height: 70px;
   padding-top: 27px;
   position: relative;
-  bottom: 73px;
+  top: 73px;
 }
 
 .work-name-text {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #fff;
+  padding-top: 27px;
+  width: 370px;
+  height: 70px;
+  background-color: #2f303a;
+  position: absolute;
+  bottom: 2px;
+  opacity: 80%;
 }
 
 .team-list {
