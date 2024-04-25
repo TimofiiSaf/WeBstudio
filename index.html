@@ -80,50 +80,62 @@
             <h3 class="modal-title">Залишате свої дані, ми вам перезвонимо</h3>
             <ul class="modal-list">
               <li class="modal-list-item">
-                <label for="name" class="modal-list-name"
-                  >Ім'я
-                  <input type="name" class="modal-list-input" />
-                  <svg class="modal-svg">
+                <label for="phone" class="modal-list-name">Імʼя</label>
+                <div class="input-wrap">
+                  <input type="phone" class="modal-list-input" />
+                  <svg class="modal-svg" width="12" height="12">
                     <use
                       href="./images/svg/symboldefs.svg#icon-modal-user"
                     ></use>
                   </svg>
-                </label>
+                </div>
               </li>
               <li class="modal-list-item">
-                <label for="phone" class="modal-list-name"
-                  >Телефон
+                <label for="phone" class="modal-list-name">Телефон</label>
+                <div class="input-wrap">
                   <input type="phone" class="modal-list-input" />
-                  <svg class="modal-svg" width="18" height="24">
+                  <svg class="modal-svg" width="18" height="18">
                     <use
                       href="./images/svg/symboldefs.svg#icon-modal-tel"
                     ></use>
                   </svg>
-                </label>
+                </div>
               </li>
               <li class="modal-list-item">
-                <label for="phone" class="modal-list-name"
-                  >Телефон
-                  <input type="phone" class="modal-list-input" />
-                  <svg class="modal-svg">
+                <label for="phone" class="modal-list-name">Пошта</label>
+                <div class="input-wrap">
+                  <input
+                    type="phone"
+                    class="modal-list-input"
+                    width="448"
+                    height="120"
+                  />
+                  <svg class="modal-svg" width="15" height="12">
                     <use
-                      href="./images/svg/symboldefs.svg#icon-modal-tel"
+                      href="./images/svg/symboldefs.svg#icon-modal-mail"
                     ></use>
                   </svg>
-                </label>
+                </div>
               </li>
               <li class="modal-list-item">
-                <label for="phone" class="modal-list-name"
-                  >Телефон
+                <label for="phone" class="modal-list-name">Коментар</label>
+                <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Введіть текст"
+                  class="modal-textarea"
+                ></textarea>
+                <div class="input-wrap">
                   <input type="phone" class="modal-list-input" />
-                  <svg class="modal-svg">
-                    <use
-                      href="./images/svg/symboldefs.svg#icon-modal-tel"
-                    ></use>
-                  </svg>
-                </label>
+                </div>
               </li>
             </ul>
+            <p class="div-modal-text">
+              <input type="checkbox" class="div-modal-check" />Погоджуюся з
+              россилкою та приймаю
+              <a href="#" class="div-modal-link">Умови договору</a>
+            </p>
+            <button type="submit" class="div-modal-bth-sbm">Відправити</button>
           </form>
         </div>
       </section>
