@@ -788,8 +788,6 @@ footer {
 }
 
 .footer-content {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .mail-footer,
@@ -817,6 +815,11 @@ footer {
 .footer-background {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-svg {
