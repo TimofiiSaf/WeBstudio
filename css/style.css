@@ -10,8 +10,12 @@ h4 {
   margin: 0;
 }
 
+
+
 a:hover {
   color: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 body {
@@ -64,6 +68,17 @@ footer {
   margin-top: 19px;
 }
 
+.portfolio-cover-image {
+  /* Додайте стиль, щоб контейнер зображення мав достатню висоту для відображення тексту */
+  min-height: 100px; /* Встановіть потрібну висоту */
+  /* Якщо потрібно, також можна використовувати інші властивості, такі як overflow або текстові обтічання */
+}
+
+.portfolio-list-name {
+  margin-top: 21px;
+}
+
+
 .web-part {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
@@ -104,6 +119,8 @@ footer {
 
 .addres-item:hover .addres-use-svg {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 .nav-item {
@@ -352,6 +369,7 @@ footer {
   fill: #fff;
   border: 2px solid none;
   border-radius: 45px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
 }
 
 .footer-svg {
@@ -378,6 +396,8 @@ footer {
   fill: #fff;
   border: 2px solid none;
   border-radius: 45px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 .footer-svg-title {
@@ -398,6 +418,7 @@ footer {
 
 .work-svg:hover {
   fill: #fff;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
 }
 
 .name {
@@ -490,11 +511,15 @@ footer {
 
 .users-list-box:hover .user-svg-use {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 .users-list-box:hover {
   border: #2196f3 1px solid;
   border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 .users-svg {
@@ -508,10 +533,14 @@ footer {
 
 .users-list-svg:hover {
   border: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+  transform: scale(0.9) translateY(-10px);
 }
 
 .users-list-box:hover .users-svg {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 .web-footer-part {
@@ -588,6 +617,8 @@ a {
 }
 a:hover {
   color: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 .portf-button {
   width: 125px;
@@ -599,6 +630,8 @@ a:hover {
 .portf-button:hover {
   background-color: #2196f3;
   color: #fff;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 ul {
@@ -624,6 +657,8 @@ ul {
 
 .mail-use-svg:hover {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+ 
 }
 
 .tel-svg {
@@ -637,6 +672,7 @@ ul {
 
 .tel-use-svg:hover {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
 }
 .header-list {
   display: flex;
@@ -720,7 +756,8 @@ ul {
 }
 
 .overflow-text {
-  padding: 40px 32px;
+  padding: 63px 44px 63px 24px;
+  font-size: 18px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   position: absolute;
@@ -732,23 +769,27 @@ ul {
   color: #fff;
 
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portf-list-item:hover .overflow-text {
-  background: #2196f3;
-  transform: translateY(0);
-  transition: transform 300ms linear;
-}
-.portf-list-name {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  ;
   z-index: 1;
 }
 
+.portf-list-item:hover .overflow-text {
+  background-color: rgba(6, 139, 255, 0.9);
+  transform: translateY(0);
+  transition: transform 250ms linear;
+  
+  
+}
 .portf-list-item {
+  width: 370px;
+  height: 404px;
   position: relative;
   overflow: hidden;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
   flex-basis: calc((100% - 60px) / 3);
 }
+
 .portf-list-item:hover {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -874,6 +915,7 @@ footer {
   fill: #fff;
   border: 2px solid none;
   border-radius: 45px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
 }
 
 .footer-svg-title {
@@ -961,6 +1003,8 @@ footer {
 
 .footer-form-btn:hover {
   background-color: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 
 .footer-form-btn:focus {
@@ -1033,9 +1077,13 @@ footer {
 }
 .modal-list-input:hover {
   border-color: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 .modal-list-input:hover + .modal-svg {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 .modal-textarea {
   width: 100%;
@@ -1115,6 +1163,8 @@ footer {
 }
 .div-modal-btn-close:hover {
   fill: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+
 }
 .is-hidden {
   opacity: 0;
@@ -1135,4 +1185,6 @@ footer {
 }
 .modal-textarea:hover {
   border-color: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+ 
 }
