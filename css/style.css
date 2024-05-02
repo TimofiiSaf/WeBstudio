@@ -31,9 +31,7 @@ a {
 ul {
   list-style-type: none;
 }
-footer {
-  background-color: #2f303a;
-}
+
 .hero-btn {
   border-radius: 4px;
   background: #2196f3;
@@ -588,11 +586,9 @@ footer {
   padding-bottom: 60px;
 }
 
-.footer-content {
-  padding-top: 60px;
-  padding-bottom: 60px;
+/* .footer-content {
   display: flex;
-}
+} */
 
 .footer-background {
   display: flex;
@@ -899,6 +895,10 @@ footer {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.footer .container {
+  display: flex;
 }
 
 .footer-svg {
@@ -906,6 +906,8 @@ footer {
   height: 20px;
   background-size: 44px;
 }
+
+
 
 .footer-background-div {
   display: flex;
