@@ -739,13 +739,18 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  row-gap: 30px;
+ 
+  gap: 30px;
   justify-content: space-between;
   margin-top: 56px;
-  margin-bottom: 94px;
+  
+
 }
+
+.portfolio-section {
+  padding-bottom: 94px;
+}
+
 .portf-button {
   background-color: #f5f4fa;
   text-align: center;
