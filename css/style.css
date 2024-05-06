@@ -218,10 +218,21 @@ ul {
   margin: auto;
 }
 
+.title-h2 {
+  margin-bottom: 50px;
+  color: #212121;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
 .team-list {
   display: flex;
   flex-direction: row;
-  padding-top: 50px;
 }
 
 .adventages-list {
@@ -281,6 +292,7 @@ ul {
 .photo {
   width: 270px;
   height: 260px;
+  margin-bottom: 30px;
 }
 
 .work-title {
@@ -304,9 +316,7 @@ ul {
   position: relative;
 }
 
-.work-list-img {
-  width: 370px;
-}
+
 
 .work-list-name {
   display: block;
@@ -355,14 +365,13 @@ ul {
   padding-bottom: 30px;
 }
 
-.background-div-item {
-  margin-right: 10px;
-}
+
 
 .background-div-svg {
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 10px
+  ;
 }
 
 .background-div {
@@ -442,7 +451,6 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
-  padding-top: 30px;
 }
 
 .robota {
@@ -454,8 +462,8 @@ ul {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  margin: 10px 0 30px 0;
+  
 }
 
 .mail-footer,
@@ -497,6 +505,13 @@ ul {
 .users-list-title {
   text-align: center;
   margin-bottom: 50px;
+  color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 
 .users-box {
@@ -509,7 +524,7 @@ ul {
 
 .users-list {
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
 }
 
 .users-list-box {
