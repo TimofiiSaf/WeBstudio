@@ -644,8 +644,8 @@ a {
 }
 a:hover {
   color: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
-
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portf-button {
   width: 125px;
@@ -684,8 +684,8 @@ ul {
 
 .mail-use-svg:hover {
   fill: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
- 
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-svg {
@@ -699,7 +699,8 @@ ul {
 
 .tel-use-svg:hover {
   fill: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list {
   display: flex;
@@ -823,7 +824,6 @@ ul {
   position: relative;
   overflow: hidden;
   border: 1px solid #EEEEEE;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
 }
 
 .portf-list-item:hover {
@@ -1082,6 +1082,8 @@ footer {
   padding: 15px;
   background-color: #ffffff;
   border-radius: 4px;
+  transform: translate(-2%, -1%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title {
   font-family: "Roboto", sans-serif;
@@ -1120,13 +1122,13 @@ footer {
 }
 .modal-list-input:hover {
   border-color: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
-
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-list-input:hover + .modal-svg {
   fill: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
-
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea {
   width: 100%;
@@ -1206,8 +1208,8 @@ footer {
 }
 .div-modal-btn-close:hover {
   fill: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
-
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -1228,6 +1230,6 @@ footer {
 }
 .modal-textarea:hover {
   border-color: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
- 
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
