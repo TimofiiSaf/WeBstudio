@@ -63,6 +63,7 @@ ul {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+  margin-right: 93px;
 }
 
 .portfolio-list-name {
@@ -88,7 +89,6 @@ ul {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .nav-list {
@@ -103,7 +103,7 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  margin-left: 50px;
+
 }
 
 .addres-svg {
@@ -127,7 +127,7 @@ ul {
 }
 .addres-list {
   display: flex;
-  gap: 10px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -142,6 +142,8 @@ ul {
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .nav-menu-link:hover {
@@ -300,6 +302,10 @@ ul {
 
 .work-list-item {
   position: relative;
+}
+
+.work-list-img {
+  width: 370px;
 }
 
 .work-list-name {
