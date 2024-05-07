@@ -14,8 +14,6 @@ h4 {
 
 a:hover {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -27,6 +25,9 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul {
   list-style-type: none;
@@ -103,7 +104,9 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .addres-svg {
@@ -114,8 +117,6 @@ ul {
 
 .addres-item:hover .addres-use-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item {
@@ -144,6 +145,7 @@ ul {
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -170,14 +172,13 @@ ul {
   display: block;
   gap: 40px;
   font-size: 14px;
-}
-
-.nav-item:hover .nav-menu-link:hover {
-  content: "";
-  width: 100%;
-  color: #2196f3;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item:hover .nav-menu-link {
+  color: #2196f3;
 }
 .header-mail {
   color: #757575;
@@ -385,6 +386,9 @@ ul {
   border: 2px solid none;
   border-radius: 45px;
   fill: #afb1b8;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .background-div:hover {
@@ -392,8 +396,7 @@ ul {
   fill: #fff;
   border: 2px solid none;
   border-radius: 45px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .footer-svg {
@@ -413,6 +416,9 @@ ul {
   fill: #fff;
   background-color: rgba(0, 0, 0, 10%);
   margin-right: 10px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-background-div:hover {
@@ -420,8 +426,7 @@ ul {
   fill: #fff;
   border: 2px solid none;
   border-radius: 45px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .footer-svg-title {
@@ -442,7 +447,6 @@ ul {
 
 .work-svg:hover {
   fill: #fff;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація для transform і opacity */
 }
 
 .name {
@@ -537,19 +541,19 @@ ul {
   height: 92px;
   border: #afb1b8 1px solid;
   border-radius: 4px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .users-list-box:hover .user-svg-use {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .users-list-box:hover {
   border: #2196f3 1px solid;
   border-radius: 4px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .users-svg {
@@ -559,19 +563,17 @@ ul {
 .users-list-svg {
   display: block;
   margin: 0 auto;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .users-list-svg:hover {
   border: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .users-list-box:hover .users-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .web-footer-part {
@@ -641,11 +643,13 @@ h4 {
 a {
   text-decoration: none;
   color: inherit;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 a:hover {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .portf-button {
   width: 125px;
@@ -653,12 +657,14 @@ a:hover {
   flex-shrink: 0;
   border-radius: 4px;
   background: #f5f4fa;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portf-button:hover {
   background-color: #2196f3;
   color: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 ul {
@@ -680,12 +686,13 @@ ul {
 
 .mail-use-svg {
   fill: #757575;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-use-svg:hover {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-svg {
@@ -695,12 +702,14 @@ ul {
 
 .tel-use-svg {
   fill: #757575;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-use-svg:hover {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .header-list {
   display: flex;
