@@ -124,9 +124,8 @@ ul {
   
 }
 .addres-use-svg {
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: fill;
+  
 }
 
 
@@ -577,9 +576,8 @@ ul {
 
 .users-svg {
   fill: #afb1b8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: fill;
+  
 }
 
 .users-list-svg {
@@ -656,82 +654,9 @@ ul {
 
 /* portfolio */
 
-a,
-ul,
-h1,
-li,
-p,
-h2,
-h3,
-h4 {
-  padding: 0;
-  margin: 0;
-}
-/* a {
-  text-decoration: none;
-  color: inherit;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
-/* a:hover {
-  color: #2196f3;
-  
-} */
-.portf-button {
-  width: 125px;
-  height: 38px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: #f5f4fa;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portf-button:hover {
-  background-color: #2196f3;
-  color: #fff;
-  
-}
-
-ul {
-  list-style-type: none;
-}
 
 
 
-.mail-svg {
-  width: 16px;
-  height: 12px;
-}
-
-.mail-use-svg {
-  fill: #757575;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mail-use-svg:hover {
-  fill: #2196f3;
-}
-
-.tel-svg {
-  width: 10px;
-  height: 16px;
-}
-
-.tel-use-svg {
-  fill: #757575;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tel-use-svg:hover {
-  fill: #2196f3;
-  
-}
 .header-list {
   display: flex;
   justify-content: space-between;
@@ -1135,8 +1060,8 @@ footer {
 }
 .modal-list-input:hover + .modal-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: fill;
+  
 }
 .modal-textarea {
   width: 100%;
@@ -1216,8 +1141,7 @@ footer {
 }
 .div-modal-btn-close:hover {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: fill;
 }
 .is-hidden {
   opacity: 0;
@@ -1234,10 +1158,24 @@ footer {
 
 .modal-list-name {
   color: #757575;
-  margin-top: 23523525px;
 }
 .modal-textarea:hover {
   border-color: #2196f3;
+  animation-name: modal;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@keyframes fill {
+  0% {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  100% {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
