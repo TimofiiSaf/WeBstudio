@@ -101,7 +101,7 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  
+  animation-name: header-anim;
   
 }
 
@@ -125,6 +125,9 @@ ul {
 }
 .addres-use-svg {
   animation-name: fill;
+  transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -141,7 +144,19 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  animation-name: header-anim;
 }
+
+@keyframes header-anim {
+  0%{
+    color: initial;
+  }
+  100%{
+    color: #2196f3;
+  }
+}
+
+
 .addres-list {
   display: flex;
   gap: 50px;
@@ -403,6 +418,7 @@ ul {
   border: 2px solid none;
   border-radius: 45px;
   fill: #afb1b8;
+  animation-name: svg-background;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -433,9 +449,19 @@ ul {
   fill: #fff;
   background-color: rgba(0, 0, 0, 10%);
   margin-right: 10px;
+  animation-name: svg-background;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes svg-background{
+  0%{
+    background-color: initial;
+  }
+  100%{
+    background-color: #2196f3;
+  }
 }
 
 .footer-background-div:hover {
@@ -577,6 +603,9 @@ ul {
 .users-svg {
   fill: #afb1b8;
   animation-name: fill;
+  transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -656,6 +685,22 @@ ul {
 
 
 
+.portf-button {
+  width: 125px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portf-button:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+
 
 .header-list {
   display: flex;
@@ -669,8 +714,6 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
- 
-  gap: 30px;
   justify-content: space-between;
   margin-top: 56px;
   
@@ -1061,7 +1104,19 @@ footer {
 .modal-list-input:hover + .modal-svg {
   fill: #2196f3;
   animation-name: fill;
+  transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
+}
+
+@keyframes fill {
+  0% {
+    fill: initial;
+  }
+  100% {
+    fill: #2196f3;
+  }
 }
 .modal-textarea {
   width: 100%;
@@ -1142,6 +1197,9 @@ footer {
 .div-modal-btn-close:hover {
   fill: #2196f3;
   animation-name: fill;
+  transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -1161,21 +1219,18 @@ footer {
 }
 .modal-textarea:hover {
   border-color: #2196f3;
-  animation-name: modal;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: input-border;
+  
+  
 }
 
-
-@keyframes fill {
+@keyframes input-border {
   0% {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: initial;
   }
   100% {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196f3;
   }
 }
+
+
