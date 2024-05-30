@@ -50,6 +50,7 @@ ul {
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
+  animation-name: header-anim;
 }
  .web-footer-part:hover {
   color: #2196f3;
